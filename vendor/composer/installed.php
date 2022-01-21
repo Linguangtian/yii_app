@@ -1,11 +1,11 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => '2.0.44',
-        'version' => '2.0.44.0',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => NULL,
+        'reference' => '70d8f9a402caa2b8c5c53160f003feb42b5e51f4',
         'name' => 'yiisoft/yii2-app-advanced',
         'dev' => true,
     ),
@@ -755,12 +755,12 @@
             'dev_requirement' => false,
         ),
         'yiisoft/yii2-app-advanced' => array(
-            'pretty_version' => '2.0.44',
-            'version' => '2.0.44.0',
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => NULL,
+            'reference' => '70d8f9a402caa2b8c5c53160f003feb42b5e51f4',
             'dev_requirement' => false,
         ),
         'yiisoft/yii2-bootstrap4' => array(
@@ -807,6 +807,15 @@
             'aliases' => array(),
             'reference' => '80893fc4c0df97f3638938948bf34ca43dd8bff6',
             'dev_requirement' => true,
+        ),
+        'yiisoft/yii2-redis' => array(
+            'pretty_version' => '2.0.17',
+            'version' => '2.0.17.0',
+            'type' => 'yii2-extension',
+            'install_path' => __DIR__ . '/../yiisoft/yii2-redis',
+            'aliases' => array(),
+            'reference' => '222c6a4340fdf5124f7fb101d026d98e48bf940e',
+            'dev_requirement' => false,
         ),
         'yiisoft/yii2-swiftmailer' => array(
             'pretty_version' => '2.1.3',
