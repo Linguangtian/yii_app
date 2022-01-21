@@ -4,10 +4,11 @@ return [
     'components' => [
         'db' => [
             'class' => 'yii\db\Connection',
-            'dsn' => 'mysql:host=localhost;dbname=yii2advanced',
-            'username' => 'root',
-            'password' => '',
-            'charset' => 'utf8',
+            'dsn' => 'mysql:host=192.168.1.122;dbname=novel-lite',
+            'username' => 'novel-lite',
+            'password' => 'eLb8cekx8LtxP5B6',
+            'tablePrefix' => 'bw_',
+            'charset' => 'utf8mb4',
         ],
         'mailer' => [
             'class' => 'yii\swiftmailer\Mailer',

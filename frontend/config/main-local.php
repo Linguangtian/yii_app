@@ -1,6 +1,6 @@
-<?php
-
-$config = [
+ <?php
+ define('DEFAULT_PAGE_SIZE', 10); // 默认分页大小
+ $config = [
     'components' => [
         'request' => [
             // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
