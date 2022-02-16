@@ -2,17 +2,64 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ed06a9c-3239-44f8-8737-78e52d6cbbe3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/data/ActiveDataProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/controllers/UrlController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/services/Service.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/services/UserService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/components/ParamsTrait.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/models/user/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/yii_app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/yii_app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/index.data" beforeDir="false" afterPath="$PROJECT_DIR$/backend/runtime/debug/index.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/config/bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/config/bootstrap.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/config/main-local.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/config/main-local.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/config/main-local.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/config/main-local.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/config/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/config/main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/config/params.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/config/params.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/controllers/BookController.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/controllers/BookController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/controllers/SiteController.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/controllers/SiteController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/dao/BookCommentDao.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/dao/BookCommentDao.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/61ea2535447d5.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/61ea29a0e6e3f.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/61ea29b417df6.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/61ea2a20e85a7.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/61ea2a4b8932a.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/61ea2a4f0c0b5.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/61ea2a6070fff.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/61ea2a6ad6a0c.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/61ea2a89dad5d.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/61ea2a91e6133.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/61ea2aabe3904.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/61ea2ac917ba7.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/61ea2acded974.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/61ea560e6353a.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/61ea56837d6d6.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/61ea56953dded.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/61ea56a360c4a.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/61ea5851b381a.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/61ea5a6a45f46.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/61ea5ad0d2621.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/61ea5b6f80256.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/61ea5b8634b6f.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/61ea5b8f67e4b.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/61ea5ba81b6ef.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/61ea5bca1f892.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/61ea5bf209fb9.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/61ea5c0093d75.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/61ea64236ba4e.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/61ea6435719eb.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/61ea644709fa0.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/61ea69139bb05.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/index.data" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/runtime/debug/index.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/logs/app.log" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/runtime/logs/app.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/services/BookService.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/services/BookService.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -107,6 +154,7 @@
       <path value="$PROJECT_DIR$/vendor/npm-asset/bootstrap" />
       <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
       <path value="$PROJECT_DIR$/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/vendor/yiisoft/yii2-redis" />
     </include_path>
   </component>
   <component name="ProjectId" id="23zRSXLIXIJxHzxcyUcV4bSI148" />
@@ -118,7 +166,16 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/api/services" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\phpstudy_pro\WWW\yii2.0\yii_app\frontend\models\user" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\phpstudy_pro\WWW\yii2.0\yii_app\api\services" />
+      <recent name="D:\phpstudy_pro\WWW\yii2.0\yii_app\api\controllers" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="codeception.yml" type="CodeceptionConfigurationType" factoryName="Codeception">
@@ -136,7 +193,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1642734928575</updated>
-      <workItem from="1642734929775" duration="12239000" />
+      <workItem from="1642734929775" duration="18416000" />
+      <workItem from="1642986207514" duration="1099000" />
+      <workItem from="1642988691829" duration="9000" />
+      <workItem from="1642990548356" duration="1660000" />
+      <workItem from="1643073385306" duration="2974000" />
+      <workItem from="1643081886937" duration="822000" />
+      <workItem from="1643098902836" duration="6128000" />
+      <workItem from="1643159971497" duration="1576000" />
+      <workItem from="1643165882784" duration="7175000" />
+      <workItem from="1644369115267" duration="19133000" />
+      <workItem from="1644454868772" duration="3362000" />
+      <workItem from="1644460492091" duration="15923000" />
+      <workItem from="1644543047787" duration="22398000" />
+      <workItem from="1644574652875" duration="287000" />
+      <workItem from="1644801292809" duration="23030000" />
+      <workItem from="1644914058984" duration="3560000" />
+      <workItem from="1644919880107" duration="849000" />
+      <workItem from="1644974069637" duration="9136000" />
     </task>
     <servers />
   </component>
@@ -144,25 +218,40 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1073" y="319" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1642750525452">
+    <state x="1073" y="319" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1644821093714">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1073" y="319" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1642750525452" />
-    <state x="1160" y="487" key="NewPhpFileDialog" timestamp="1642748167802">
+    <state x="1073" y="319" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1644821093714" />
+    <state x="575" y="343" key="FileChooserDialogImpl" timestamp="1642987578627">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1160" y="487" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1642748167802" />
-    <state x="337" y="353" width="596" height="532" key="find.popup" timestamp="1642752299747">
+    <state x="575" y="343" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1642987578627" />
+    <state x="1160" y="487" key="NewPhpFileDialog" timestamp="1644379069020">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="337" y="353" width="596" height="532" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1642752299747" />
-    <state x="828" y="256" key="run.anything.popup" timestamp="1642748838832">
+    <state x="1160" y="487" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1644379069020" />
+    <state x="210" y="71" width="1200" height="880" key="find.popup" timestamp="1644484095084">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="828" y="256" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1642748838832" />
-    <state x="543" y="361" key="search.everywhere.popup" timestamp="1642749209602">
+    <state x="210" y="71" width="1200" height="880" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1644484095084" />
+    <state x="828" y="256" key="run.anything.popup" timestamp="1644462021309">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="543" y="361" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1642749209602" />
+    <state x="828" y="256" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1644462021309" />
+    <state x="543" y="361" key="search.everywhere.popup" timestamp="1644398951816">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="543" y="361" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1644398951816" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/frontend/components/Userinfo.php</url>
+          <line>21</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

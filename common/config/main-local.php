@@ -18,5 +18,12 @@ return [
             // for the mailer to send real emails.
             'useFileTransport' => true,
         ],
+        'redis' =>[
+            'class' => 'yii\redis\Connection',
+            'hostname' => 'localhost',  //你的redis地址
+            'port' => 6379, //端口
+            'database' => 1,
+            'password' => '123456',
+        ]
     ],
 ];

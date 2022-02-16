@@ -6,6 +6,15 @@
             // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
             'cookieValidationKey' => 'VGlgOy9tjrvOpsMjg-ccs2jG_XJEoBc7',
         ],
+        /*'user'=>[
+            'class' => 'frontend\components\Userinfo',
+          //  'params' => ['token'],
+           // 'enableCsrfValidation' => false,
+          //  'identityClass' => 'frontend\components\Userinfo',
+
+        ]*/
+
+
     ],
 ];
 

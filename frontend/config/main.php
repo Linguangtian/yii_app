@@ -13,12 +13,22 @@ return [
     'controllerNamespace' => 'frontend\controllers',
     'components' => [
         'request' => [
+          //  'class' => 'frontend\components\Request',
             'csrfParam' => '_csrf-frontend',
+            'parsers' => [
+                'application/json' => 'yii\web\JsonParser',  //启动json输入
+                'text/json' => 'yii\web\JsonParser',
+            ]
+
         ],
         'user' => [
-            'identityClass' => 'common\models\User',
-            'enableAutoLogin' => true,
-            'identityCookie' => ['name' => '_identity-frontend', 'httpOnly' => true],
+           // 'class' => 'frontend\components\Userinfo',
+            //'params' => ['token'],
+           'identityClass' => 'common\models\User',
+           // 'enableAutoLogin' => false,
+          //  'identityCookie' => ['name' => '_identity-frontend', 'httpOnly' => true],
+           // 'enableSession'=>false
+
         ],
         'session' => [
             // this is the name of the session cookie used for login on the frontend
@@ -43,12 +53,19 @@ return [
         ],
 
         'urlManager' => [
+            'enableStrictParsing' => true,
             'enablePrettyUrl' => true,
             'showScriptName' => false,
+
             'rules' => [
+               /* [
+                   'class' => 'yii\rest\UrlRule',
+                   'controller' => 'user'
+                ],*/
             ],
         ],
 
     ],
     'params' => $params,
+
 ];
