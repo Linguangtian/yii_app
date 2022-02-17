@@ -1218,6 +1218,60 @@
             "install-path": "../guzzlehttp/psr7"
         },
         {
+            "name": "jianyan74/yii2-websocket",
+            "version": "1.1.1",
+            "version_normalized": "1.1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jianyan74/yii2-websocket.git",
+                "reference": "09f12eac03d47cf8482164394b40fd210fea3636"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jianyan74/yii2-websocket/zipball/09f12eac03d47cf8482164394b40fd210fea3636",
+                "reference": "09f12eac03d47cf8482164394b40fd210fea3636",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0",
+                "yiisoft/yii2": "*",
+                "yiisoft/yii2-redis": "^2.0"
+            },
+            "time": "2018-04-11T01:49:21+00:00",
+            "type": "yii2-extension",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "jianyan\\websocket\\": "./src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "简言",
+                    "email": "751393839@qq.com"
+                }
+            ],
+            "description": "yii2 websocket",
+            "homepage": "https://github.com/jianyan74/yii2-websocket",
+            "keywords": [
+                "jianyan74",
+                "php",
+                "swoole",
+                "websocket",
+                "yii",
+                "yii2"
+            ],
+            "support": {
+                "issues": "https://github.com/jianyan74/yii2-websocket/issues",
+                "source": "https://github.com/jianyan74/yii2-websocket/tree/1.1.1"
+            },
+            "install-path": "../jianyan74/yii2-websocket"
+        },
+        {
             "name": "myclabs/deep-copy",
             "version": "1.10.2",
             "version_normalized": "1.10.2.0",
@@ -5066,6 +5120,57 @@
                 "source": "https://github.com/webmozarts/assert/tree/1.10.0"
             },
             "install-path": "../webmozart/assert"
+        },
+        {
+            "name": "yiiplus/yii2-websocket",
+            "version": "1.0.2",
+            "version_normalized": "1.0.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yiiplus/yii2-websocket.git",
+                "reference": "7098989975ec08d19bb03456a6544e193bc3320d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yiiplus/yii2-websocket/zipball/7098989975ec08d19bb03456a6544e193bc3320d",
+                "reference": "7098989975ec08d19bb03456a6544e193bc3320d",
+                "shasum": ""
+            },
+            "require": {
+                "yiisoft/yii2": "~2.0.0"
+            },
+            "time": "2019-01-30T07:32:09+00:00",
+            "type": "yii2-extension",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "yiiplus\\websocket\\": "src",
+                    "yiiplus\\websocket\\swoole\\": "src/drivers/swoole",
+                    "yiiplus\\websocket\\workerman\\": "src/drivers/workerman"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "gengxiankun",
+                    "email": "gengxiankun@126.com"
+                }
+            ],
+            "description": "使用yii2封装 websocket 扩展",
+            "keywords": [
+                "extension",
+                "swoole",
+                "websocket",
+                "yii2"
+            ],
+            "support": {
+                "issues": "https://github.com/yiiplus/yii2-websocket/issues",
+                "source": "https://github.com/yiiplus/yii2-websocket/tree/1.0.2"
+            },
+            "install-path": "../yiiplus/yii2-websocket"
         },
         {
             "name": "yiisoft/yii2",

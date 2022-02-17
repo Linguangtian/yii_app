@@ -57,4 +57,24 @@ return array (
       '@yii/redis' => $vendorDir . '/yiisoft/yii2-redis/src',
     ),
   ),
+  'jianyan74/yii2-websocket' => 
+  array (
+    'name' => 'jianyan74/yii2-websocket',
+    'version' => '1.1.1.0',
+    'alias' => 
+    array (
+      '@jianyan/websocket' => $vendorDir . '/jianyan74/yii2-websocket/src',
+    ),
+  ),
+  'yiiplus/yii2-websocket' => 
+  array (
+    'name' => 'yiiplus/yii2-websocket',
+    'version' => '1.0.2.0',
+    'alias' => 
+    array (
+      '@yiiplus/websocket' => $vendorDir . '/yiiplus/yii2-websocket/src',
+      '@yiiplus/websocket/swoole' => $vendorDir . '/yiiplus/yii2-websocket/src/drivers/swoole',
+      '@yiiplus/websocket/workerman' => $vendorDir . '/yiiplus/yii2-websocket/src/drivers/workerman',
+    ),
+  ),
 );
