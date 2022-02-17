@@ -5,14 +5,10 @@
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/yii_app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/yii_app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_files.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/extensions.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/extensions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/controllers/Book2Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/controllers/Book2Controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/controllers/UserController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/services/UserService.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/services/UserService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/filters/auth/QueryParamAuth.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/filters/auth/QueryParamAuth.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,6 +112,7 @@
       <path value="$PROJECT_DIR$/vendor/egulias/email-validator" />
       <path value="$PROJECT_DIR$/vendor/yiisoft/yii2-redis" />
       <path value="$PROJECT_DIR$/vendor/jianyan74/yii2-websocket" />
+      <path value="$PROJECT_DIR$/vendor/yiiplus/yii2-websocket" />
     </include_path>
   </component>
   <component name="ProjectId" id="23zRSXLIXIJxHzxcyUcV4bSI148" />
@@ -172,7 +169,8 @@
       <workItem from="1644914058984" duration="3560000" />
       <workItem from="1644919880107" duration="849000" />
       <workItem from="1644974069637" duration="9136000" />
-      <workItem from="1645000224461" duration="2359000" />
+      <workItem from="1645000224461" duration="3016000" />
+      <workItem from="1645060178685" duration="18851000" />
     </task>
     <servers />
   </component>
@@ -180,10 +178,10 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1073" y="319" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1644821093714">
+    <state x="1073" y="319" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1645084157548">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1073" y="319" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1644821093714" />
+    <state x="1073" y="319" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1645084157548" />
     <state x="575" y="343" key="FileChooserDialogImpl" timestamp="1642987578627">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -192,10 +190,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1160" y="487" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1644379069020" />
-    <state x="210" y="71" width="1200" height="880" key="find.popup" timestamp="1644484095084">
+    <state x="210" y="71" width="1200" height="880" key="find.popup" timestamp="1645079251821">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="210" y="71" width="1200" height="880" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1644484095084" />
+    <state x="210" y="71" width="1200" height="880" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1645079251821" />
     <state x="828" y="256" key="run.anything.popup" timestamp="1644462021309">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

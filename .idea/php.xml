@@ -90,6 +90,7 @@
       <path value="$PROJECT_DIR$/vendor/egulias/email-validator" />
       <path value="$PROJECT_DIR$/vendor/yiisoft/yii2-redis" />
       <path value="$PROJECT_DIR$/vendor/jianyan74/yii2-websocket" />
+      <path value="$PROJECT_DIR$/vendor/yiiplus/yii2-websocket" />
     </include_path>
   </component>
 </project>

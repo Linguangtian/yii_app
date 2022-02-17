@@ -8,6 +8,7 @@ use yii\web\Controller;
 use api\controllers\BaseController;
 
 
+use yii\filters\RateLimiter;
 
 /**
  * Site controller
@@ -28,20 +29,12 @@ class UserController  extends BaseController
             X-Rate-Limit-Reset: 为了得到最大请求数所等待的秒数。
             你可以禁用这些头信息通过配置 yii\filters\RateLimiter::enableRateLimitHeaders 为false, 就像在上面的代码示例所示。
         */
-      /*  $behaviors['rateLimiter'] = [
+        $behaviors['rateLimiter'] = [
             'class' => RateLimiter::className(),
-            'enableRateLimitHeaders' => true,
+            'enableRateLimitHeaders' => true,  //当前类开启限数
         ];
-        return $behaviors;*/
+        return $behaviors;
     }
-
-
-
-
-
-
-
-
 
 
 
