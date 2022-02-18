@@ -41,11 +41,19 @@ return [
 
 
         ],
-        'session' => [
+      /*  'session' => [
             // this is the name of the session cookie used for login on the api
             'name' => 'advanced-api',
-        ],
+        ],*/
 
+        'websocket' => [
+            'class' => '\yiiplus\websocket\<dirver>\WebSocket',
+            'host' => '127.0.0.1',
+            'port' => 9501,
+            'channels' => [
+                'push-message' => '\api\components\PushMessageChannel', // 配置 channel 对应的执行类
+            ],
+        ],
 
 
 

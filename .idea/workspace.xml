@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ed06a9c-3239-44f8-8737-78e52d6cbbe3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/yii_app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/yii_app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/controllers/Book2Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/controllers/Book2Controller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/controllers/UserController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/services/UserService.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/services/UserService.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/filters/auth/QueryParamAuth.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/filters/auth/QueryParamAuth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/config/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/config/main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,7 +166,8 @@
       <workItem from="1644919880107" duration="849000" />
       <workItem from="1644974069637" duration="9136000" />
       <workItem from="1645000224461" duration="3016000" />
-      <workItem from="1645060178685" duration="18851000" />
+      <workItem from="1645060178685" duration="21663000" />
+      <workItem from="1645150920559" duration="2495000" />
     </task>
     <servers />
   </component>
