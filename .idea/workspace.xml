@@ -3,7 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="8ed06a9c-3239-44f8-8737-78e52d6cbbe3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/config/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/config/main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/config/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/config/main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/config/params.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/config/params.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/controllers/SiteController.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/controllers/SiteController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/index.data" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/runtime/debug/index.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/logs/app.log" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/runtime/logs/app.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/views/site/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/views/site/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/composer/installed.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -167,7 +177,7 @@
       <workItem from="1644974069637" duration="9136000" />
       <workItem from="1645000224461" duration="3016000" />
       <workItem from="1645060178685" duration="21663000" />
-      <workItem from="1645150920559" duration="2495000" />
+      <workItem from="1645150920559" duration="8125000" />
     </task>
     <servers />
   </component>
@@ -179,14 +189,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1073" y="319" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1645084157548" />
-    <state x="575" y="343" key="FileChooserDialogImpl" timestamp="1642987578627">
+    <state x="575" y="343" key="FileChooserDialogImpl" timestamp="1645155306318">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="575" y="343" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1642987578627" />
+    <state x="575" y="343" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1645155306318" />
     <state x="1160" y="487" key="NewPhpFileDialog" timestamp="1644379069020">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1160" y="487" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1644379069020" />
+    <state x="959" y="0" width="977" height="980" key="dock-window-1" timestamp="1645162778598">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="959" y="0" width="977" height="980" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1645162778598" />
     <state x="210" y="71" width="1200" height="880" key="find.popup" timestamp="1645079251821">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

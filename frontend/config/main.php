@@ -13,12 +13,12 @@ return [
     'controllerNamespace' => 'frontend\controllers',
     'components' => [
         'request' => [
-          //  'class' => 'frontend\components\Request',
-            'csrfParam' => '_csrf-frontend',
-            'parsers' => [
-                'application/json' => 'yii\web\JsonParser',  //启动json输入
-                'text/json' => 'yii\web\JsonParser',
-            ]
+         //  'class' => 'frontend\components\Request',
+         'csrfParam' => '_csrf-frontend',
+            /* 'parsers' => [
+              'application/json' => 'yii\web\JsonParser',  //启动json输入
+              'text/json' => 'yii\web\JsonParser',
+          ]*/
 
         ],
         'user' => [
@@ -35,9 +35,6 @@ return [
             'name' => 'advanced-frontend',
         ],
 
-        'response' => [
-            'class' => 'frontend\components\Response',
-        ],
 
         'log' => [
             'traceLevel' => YII_DEBUG ? 3 : 0,
@@ -53,7 +50,7 @@ return [
         ],
 
         'urlManager' => [
-            'enableStrictParsing' => true,
+            'enableStrictParsing' => false,
             'enablePrettyUrl' => true,
             'showScriptName' => false,
 

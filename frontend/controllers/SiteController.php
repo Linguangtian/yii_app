@@ -19,7 +19,7 @@ use frontend\controllers\BaseController;
 /**
  * Site controller
  */
-class SiteController extends BaseController
+class SiteController extends Controller
 {
     /**
      * {@inheritdoc}
@@ -75,6 +75,7 @@ class SiteController extends BaseController
      */
     public function actionIndex()
     {
+
         return $this->render('index');
     }
 
