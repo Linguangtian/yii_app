@@ -1,3 +1,3 @@
 chcp 65001
-php push.php start
+php start.php start
 pause

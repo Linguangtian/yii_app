@@ -15,7 +15,7 @@
 <script type="text/javascript">
     var wsClient=null;
     btConnect.onclick=function(){
-        wsClient=new WebSocket('ws://127.0.0.1:1234'); //这个端口号和容器监听的端口号一致
+        wsClient=new WebSocket('ws://127.0.0.1:2345'); //这个端口号和容器监听的端口号一致
         console.log(wsClient)
         wsClient.onopen = function(){
             var uid = 'uid1';

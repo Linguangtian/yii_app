@@ -1,45 +1,23 @@
 <?php
 use Workerman\Worker;
-use Workerman\Lib\Timer;
+use Workerman\Connection\TcpConnection;
 
-// composer autoload
 require_once __DIR__ . '/vendor/autoload.php';
-require_once __DIR__ . '/src/Pusher.php';
-require_once __DIR__ . '/config.php';
 
-//WSS证书', '一般为fullchain.pem，宝塔默认位置：/www/server/panel/vhost/cert/kf.otozxgj.com/fullchain.pem'
-$ws_ssl_cert='';
-//WSS私钥', '一般为privkey.pem，宝塔默认位置：/www/server/panel/vhost/cert/kf.otozxgj.com/privkey.pem'
-$ws_ssl_pk='';
-//&& strpos($whost,'wss://')!==false
-if(trim($ws_ssl_cert) && trim($ws_ssl_pk)){
-    if (!is_file($ws_ssl_cert)) exit("file $ws_ssl_cert not exist\n");
-    if (!is_file($ws_ssl_pk)) exit("file $ws_ssl_pk not exist\n");
-    $context = array(
-        'ssl' => array(
-            'local_cert'  => $ws_ssl_cert,
-            'local_pk'    => $ws_ssl_pk,
-            'verify_peer' => false,
-        )
-    );
-}else{
-    $context=[];
-}
-$pusher = new Pusher\Pusher("websocket://0.0.0.0:$websocket_port",$context);
-$pusher->apiListen = "http://0.0.0.0:$api_port";
-if(trim($ws_ssl_cert) && trim($ws_ssl_pk)){
-    $pusher->transport = 'ssl';
-}
+Worker::$logFile = '/workerman.log'; //日志保存设置
 
-$pusher->appInfo = array(
-    $app_key => array(
-        'channel_hook' => "{$domain}/admin/event",
-        'app_secret'   => $app_secret,
-    ),
-);
+$http_worker = new Worker("websocket://0.0.0.0:2345");
+// 启动4个进程，同时监听8484端口，以websocket协议提供服务
+$http_worker->count = 4;
+
+$http_worker->name ='my process';
+
+//->onConnect 一样 监听   当有连接 $connection过来是触发 $data为接受到得
+$http_worker->onMessage = function (TcpConnection $connection, $data){
+      var_dump($data);
+      $connection->send('我已经接受到你发送过来得消息了');
+
+};
 
 
-// 只能是1
-$pusher->count = 1;
-
-Worker::runAll();
+$http_worker::runAll();

@@ -107,7 +107,7 @@ class Worker
 
     /**
      * Number of worker processes.
-     *
+     * 启动4个进程对外提供服务
      * @var int
      */
     public $count = 1;

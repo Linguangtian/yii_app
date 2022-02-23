@@ -28,6 +28,7 @@ $worker->onWorkerStart = function($worker)
 };
 // 新增加一个属性，用来保存uid到connection的映射
 $worker->uidConnections = array();
+
 // 当有客户端发来消息时执行的回调函数
 $worker->onMessage = function($connection, $data)use($worker)
 {
